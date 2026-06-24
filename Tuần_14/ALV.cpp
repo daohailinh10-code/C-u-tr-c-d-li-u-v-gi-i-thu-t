@@ -129,7 +129,6 @@ int main() {
 
     cout << "\nLNR: ";
     LNR(root);
-
     cout << "\nLRN: ";
     LRN(root);
 
