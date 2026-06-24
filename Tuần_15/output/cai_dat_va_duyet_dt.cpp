@@ -46,7 +46,7 @@ public:
     }
 };
 
-// --- CẤU TRÚC 2: DANH SÁCH KỀ DÙNG DANH SÁCH LIÊN KẾT ---
+// CẤU TRÚC 2: DANH SÁCH KỀ DÙNG DANH SÁCH LIÊN KẾT 
 struct Nut {
     int id_dinh;
     Nut* tiep_theo;
