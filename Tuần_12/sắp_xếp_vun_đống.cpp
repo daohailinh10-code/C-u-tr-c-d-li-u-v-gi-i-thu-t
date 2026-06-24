@@ -35,7 +35,6 @@ void heapify(int a[], int n, int i)
         heapify(a, n, largest);
     }
 }
-
 void buildHeap(int a[], int n)
 {
     cout << "===== TAO DONG =====" << endl;
