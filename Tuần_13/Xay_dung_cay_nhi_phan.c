@@ -48,7 +48,6 @@ int main() {
                2004, 2005, 2001, 1999, 2004};
 
     int n = sizeof(a) / sizeof(a[0]);
-
     Node *root = NULL;
 
     for (int i = 0; i < n; i++)
