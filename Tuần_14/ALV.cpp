@@ -119,7 +119,6 @@ void LRN(Node *root) {
 int main() {
     int a[] = {32, 51, 27, 83, 96, 11, 45, 75, 66};
     int n = sizeof(a) / sizeof(a[0]);
-
     Node *root = NULL;
 
     for (int i = 0; i < n; i++)
