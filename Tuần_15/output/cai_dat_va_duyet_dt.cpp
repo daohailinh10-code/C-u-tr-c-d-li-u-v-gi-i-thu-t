@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 const int SO_LUONG_DINH = 11;
 
 const string ten_thanh_pho[SO_LUONG_DINH] = {
