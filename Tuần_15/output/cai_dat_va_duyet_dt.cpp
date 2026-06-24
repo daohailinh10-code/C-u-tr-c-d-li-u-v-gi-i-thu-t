@@ -5,16 +5,15 @@
 
 using namespace std;
 
-// Số lượng địa điểm
+
 const int SO_LUONG_DINH = 11;
 
-// Danh sách tên các thành phố
 const string ten_thanh_pho[SO_LUONG_DINH] = {
     "Hà Nội", "Sơn Tây", "Hòa Bình", "Thái Nguyên", "Phủ Lý", 
     "Hải Dương", "Bắc Ninh", "Hưng Yên", "Hải Phòng", "Bắc Giang", "Uông Bí"
 };
 
-// --- CẤU TRÚC 1: DANH SÁCH KỀ DÙNG MẢNG (VECTOR) ---
+//  CẤU TRÚC 1: DANH SÁCH KỀ DÙNG MẢNG (VECTOR)
 class DoThiBangVector {
     vector<int> danh_sach_ke[SO_LUONG_DINH];
 public:
