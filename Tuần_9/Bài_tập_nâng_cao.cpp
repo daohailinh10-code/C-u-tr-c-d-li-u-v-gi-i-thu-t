@@ -60,7 +60,6 @@ int Timnguoi(int N, int M) {
 }
 int main() {
     int N = 10;
-
     printf("M=1: %d\n", Timnguoi(N,1));
     printf("M=2: %d\n", Timnguoi(N,2));
     printf("M=3: %d\n", Timnguoi(N,3));
