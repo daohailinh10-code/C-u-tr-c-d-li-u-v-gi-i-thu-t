@@ -126,7 +126,7 @@ int main() {
 
     // Duyệt bắt đầu từ Hà Nội (ID = 0)
     do_thi_1.duyet_BFS(0);
-    cout << "\n---------------------------------------------\n" << endl;
+    cout << "\n-----------------------------------\n" << endl;
     do_thi_2.duyet_BFS(0);
 
     return 0;
