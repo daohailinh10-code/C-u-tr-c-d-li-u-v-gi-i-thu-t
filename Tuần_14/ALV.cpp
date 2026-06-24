@@ -50,8 +50,10 @@ Node* LeftRotate(Node *x) {
 }
 
 int Balance(Node *p) {
+    
     if (p == NULL) return 0;
     return Height(p->left) - Height(p->right);
+    
 }
 
 Node* Insert(Node *root, int x) {
