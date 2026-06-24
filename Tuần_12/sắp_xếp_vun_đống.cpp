@@ -37,7 +37,7 @@ void heapify(int a[], int n, int i)
 }
 void buildHeap(int a[], int n)
 {
-    cout << "===== TAO DONG =====" << endl;
+    cout << "==== TAO DONG ====" << endl;
 
     for (int i = n / 2; i >= 1; i--)
     {
