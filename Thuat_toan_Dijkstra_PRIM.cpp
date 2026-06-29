@@ -32,7 +32,6 @@ void Dijkstra(int start) {
     cout << endl;
 }
 
-// 2. Thuật toán Prim
 void Prim() {
     int parent[MAX], key[MAX];
     bool mstSet[MAX];
