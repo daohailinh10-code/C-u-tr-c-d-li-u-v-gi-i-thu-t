@@ -93,7 +93,6 @@ void Kruskal() {
 }
 
 int main() {
-    // Nhập số đỉnh và ma trận kề từ bàn phím
     cin >> n;
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++) cin >> G[i][j];
